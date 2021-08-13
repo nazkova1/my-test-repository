@@ -1,8 +1,28 @@
-h1{
-    color:red;
+h1 {
+    color: red;
 }
-h2{
+
+h2 {
     color: blue;
     font-size: 50px;
     text-align: center;
+}
+
+body {
+    height: 100 vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+header,
+footer {
+    height: 8vh;
+    background-color: cadetblue;
+    text-align: center;
+}
+
+main {
+    height: 80vh;
+    background-color: coral;
+    margin: 2vh 0;
 }
